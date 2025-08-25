@@ -279,25 +279,66 @@ a {
 }
 
 /* ========== DO YOU KNOW SECTION ========== */
-#com {
-  background: #fff8f0;
-  padding: 80px 20px;
+#com{
+  height: 130vh;
+  width: 100%;
+  background-color: #fff8f0;
 }
-.tit2 {
+.tit2{
+  color: #4b2e1f;
+  font-size: 23px;
   text-align: center;
-  margin-bottom: 40px;
+  padding-top: 70px;
 }
-.blo, .blo2 {
-  background: peru;
-  border-radius: 12px;
-  padding: 20px;
-  text-align: center;
-  flex: 1 1 350px;
-  margin: 15px auto;
+.blo{
+  background-color: peru;
+  height: 200px;
+  width: 400px;
+  margin:200px;
 }
-.blo img, .blo2 img {
-  width: 25%;
-  border-radius: 8px;
+
+.blo h4{
+  color: #4b2e1f;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 100px;
+}
+.blo2{
+  background-color: peru;
+  height: 400px;
+  width: 400px;
+  position: relative;
+  left: 900px;
+  bottom: 200px;
+
+}
+
+.blo2 h4{
+  color: #4b2e1f;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 250px;
+}
+.blo a{
+  color: palegoldenrod;
+  padding-left: 200px;
+  font-size: 20px;
+}
+.blo2 a{
+  font-size: 20px;
+  color: palegoldenrod;
+  padding-left: 200px;
+}
+
+.blo img{
+  position: relative;
+  left: 130px;
+  bottom: 350px;
+}
+.blo2 img{
+  position: relative;
+  left: 150px;
+  bottom: 450px;
 }
 
 /* ========== FOOTER ========== */
@@ -379,6 +420,7 @@ a {
   .recipe, .recipe2 { font-size: 20px; }
   .coffeebox { width: 90%; }
 }
+
 
 
 
