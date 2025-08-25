@@ -187,6 +187,7 @@ a {
   width: 260px;
   margin: 15px;
   transition: transform 0.3s;
+  height: 400px;
 }
 .coffeebox:hover {
   transform: translateY(-5px);
@@ -378,4 +379,5 @@ a {
   .recipe, .recipe2 { font-size: 20px; }
   .coffeebox { width: 90%; }
 }
+
 
